@@ -1,0 +1,105 @@
+body{
+	position: relative;
+	font-size: 14px;
+	line-height: 1.2;
+	font-family: 'Open Sans', sans-serif;
+	/*background-image: url('../images/7Video_Prewie.png'); 
+	background-size: cover;
+	background-repeat: no-repeat;*/
+	min-width: 100vw;
+	min-height: 100vh;
+	/*
+	background-attachment:  fixed;
+	background-position: center center;
+	*/
+
+}
+
+/* Header */
+header{
+	/*position: fixed;*/
+	position: fixed;
+	background-color: white;
+	opacity: 0.5;
+	width: 100%;
+}
+
+/*Container*/
+.container{
+	max-width: 800px;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	margin: 0 auto;
+}
+
+.big-text{
+	font-family: 'Anton';
+	text-transform: uppercase;
+	font-size: 3.6em;
+	color: black;
+}
+
+.logo{
+	text-decoration: none;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.menu{
+	display: inline-block;
+	vertical-align: top;
+	font-size: 0.86em;
+	margin-left: 2em;
+}
+
+	.menu li{
+		display: inline-block;
+		margin-right: 0.5em;
+	}
+
+	.menu a{
+		color: #ABABAB;
+		text-transform: uppercase;
+		text-decoration: none;
+		display: inline-block;
+		padding:2.1em 1.5em;
+	}
+
+	.menu a:hover,
+	.menu .active{
+		color: #000000;
+	}
+
+	/*Section*/
+
+	.part-page{
+		width: 100vw;
+		height: 100vh;
+		background-repeat: no-repeat;
+		background-size: 55%;
+		/*background-size: cover;*/
+		background-position: center;
+		margin-bottom: 1px;
+		background-attachment: fixed;
+		background-image: url('image/03-11.png');
+	}
+	.part-page .content{
+		
+		font-size: 0.5em;
+		margin-bottom: 0em;
+		
+		text-align: center;
+		color: white;	
+
+		background: rgba(0, 0, 0, 0.5);			
+		padding: 2em;
+	}
+
+	.part-page h1{
+		font-size: 3em;
+		margin-bottom: 0.5em
+		}
+
+
+
+
